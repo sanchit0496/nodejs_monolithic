@@ -6,3 +6,21 @@
 2024-02-03 12:51:03 info: Incoming request: GET /appusers/ Body: {}
 2024-02-03 18:19:49 info: Incoming request: GET /progress/ Body: {}
 2024-02-03 19:58:36 info: Incoming request: GET /subchapterread/ Body: {}
+2024-02-03 20:09:09 info: Incoming request: GET /notes/ Body: {}
+2024-02-03 20:10:10 info: Incoming request: POST /notes/ Body: {"userId":"replace_with_actual_userId","note":"This is a sample note.","subchapterUUID":"replace_with_actual_subchapterUUID"}
+2024-02-03 20:10:34 info: Incoming request: POST /notes/ Body: {"userId":"replace_with_actual_userId","note":"This is a sample note.","subchapterUUID":"replace_with_actual_subchapterUUID","notesId":"djfndgjkdfg"}
+2024-02-03 20:16:59 info: Incoming request: GET /likes/ Body: {"userId":"replace_with_actual_userId","note":"This is a sample note.","subchapterUUID":"replace_with_actual_subchapterUUID","notesId":"djfndgjkdfg"}
+2024-02-03 20:17:04 info: Incoming request: GET /likes/ Body: {}
+2024-02-03 20:17:31 info: Incoming request: GET /likes/ Body: {}
+2024-02-03 20:24:55 info: Incoming request: GET /likes/ Body: {}
+2024-02-03 20:24:57 info: Incoming request: GET /likes/ Body: {}
+2024-02-03 20:25:01 info: Incoming request: GET /likes Body: {}
+2024-02-03 20:25:10 info: Incoming request: GET /likes/ Body: {}
+2024-02-03 20:25:12 info: Incoming request: GET /like/ Body: {}
+2024-02-03 20:25:14 info: Incoming request: GET /likes/ Body: {}
+2024-02-03 20:25:53 info: Incoming request: GET /notes/ Body: {}
+2024-02-03 20:25:56 info: Incoming request: GET /likes/ Body: {}
+2024-02-03 20:26:14 info: Incoming request: GET /likes/sds Body: {}
+2024-02-03 20:26:17 info: Incoming request: GET /likes/ Body: {}
+2024-02-03 20:27:08 info: Incoming request: GET /likes/ Body: {}
+2024-02-03 20:27:52 info: Incoming request: GET /likes/ Body: {}
