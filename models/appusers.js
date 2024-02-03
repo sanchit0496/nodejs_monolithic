@@ -3,7 +3,7 @@ const sequelize = require('../config/database'); // Make sure this points to you
 
 const AppUser = sequelize.define('AppUser', {
     userId: {
-        type: Sequelize.UUID,
+        type: Sequelize.STRING,
         allowNull: false,
         primaryKey: true
     },
