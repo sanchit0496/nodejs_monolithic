@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const userController = require('../controllers/userController');
-const { createUserSchema } = require('../validations/userValidation');
+const userController = require('../controllers/appusersController');
+const { createUserSchema } = require('../validations/appusersvalidation');
 
 
 /**
@@ -52,10 +52,10 @@ const validateUserCreation = (req, res, next) => {
 };
 
 // Define the CRUD routes for users
-router.post('/', validateUserCreation, userController.createUser);
-router.get('/:id', userController.getUserById);
-router.put('/:id', userController.updateUser);
-router.delete('/:id', userController.deleteUser);
-router.get('/', userController.getAllUsers);
+router.post('/', validateUserCreation, userController.createAppUser);
+router.get('/:id', userController.getAppUserById);
+router.put('/:id', userController.updateAppUser);
+router.delete('/:id', userController.deleteAppUser);
+router.get('/', userController.getAllAppUsers);
 
 module.exports = router;

@@ -17,7 +17,7 @@ app.use((req, res, next) => {
 });
 
 // Use the user routes for any requests to '/users'
-app.use('/users', userRoutes);
+app.use('/appusers', userRoutes);
 
 // Export the app for use in index.js
 module.exports = app;
