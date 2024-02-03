@@ -25,3 +25,7 @@
 2024-02-03 20:27:08 info: Incoming request: GET /likes/ Body: {}
 2024-02-03 20:27:52 info: Incoming request: GET /likes/ Body: {}
 2024-02-03 20:28:12 info: Incoming request: GET /likes/ Body: {}
+2024-02-03 20:36:58 info: Incoming request: GET /chapters/ Body: {}
+2024-02-03 20:37:02 info: Incoming request: GET /chapters/ Body: {}
+2024-02-03 20:42:53 info: Incoming request: GET /subchapters/ Body: {}
+2024-02-03 20:42:55 info: Incoming request: GET /subchapters/ Body: {}
