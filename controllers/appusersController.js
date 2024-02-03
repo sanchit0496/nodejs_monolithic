@@ -1,4 +1,4 @@
-const AppUser = require('../models/appusers'); // Ensure this path points to your AppUser model
+const AppUser = require('../models/appUsers'); // Ensure this path points to your AppUser model
 
 exports.createAppUser = async (req, res) => {
     try {

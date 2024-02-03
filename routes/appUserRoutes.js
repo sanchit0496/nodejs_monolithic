@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const userController = require('../controllers/appusersController');
-const { createUserSchema } = require('../validations/appusersvalidation');
+const userController = require('../controllers/appUsersController');
+const { createUserSchema } = require('../validations/appUsersValidation');
 
 
 /**

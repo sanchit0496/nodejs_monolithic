@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const logger = require("./logger"); // Make sure the path is correct
-const userRoutes = require('./routes/userRoutes');
+const userRoutes = require('./routes/appUserRoutes');
 const { swaggerSpec, swaggerUi } = require('./swaggerConfig'); // Adjust the path if necessary
 
 app.use(express.json()); // For parsing application/json
